@@ -1,0 +1,26 @@
+# CONFIG
+/app/config/parameters.yml
+
+# CACHE LOGS SESSIONS
+/var/*
+!/var/cache
+/var/cache/*
+!var/cache/.gitkeep
+!/var/logs
+/var/logs/*
+!var/logs/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+
+# OTHERS
+!var/SymfonyRequirements.php
+/build/
+/phpunit.xml
+/nbproject
+
+# VENDORS
+/vendor/
+
+# BUNDLES
+/web/bundles/
